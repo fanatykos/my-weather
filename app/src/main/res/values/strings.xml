@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">PePe Pogoda</string>
+    <string name="widget_name">PePe Pogoda Widget</string>
+    <string name="action_settings">o autorze...</string>
+    <string name="author">Paweł Pusz</string>
+    <string name="e_mail">pawelpusz84@gmail.com</string>
+    <string name="city">Zielona Góra</string>
+    <string name="temp_field">Temperatura</string>
+    <string name="pressure">Ciśnienie</string>
+    <string name="is_reading">...</string>
+    <string name="button">ustaw miasto</string>
+    <string name="last_update">Ostatnia aktualizacja</string>
+
+    <string name="open_weather_maps_app_id">687cba28a684d03905e3991927a9e27a</string>
+
+
+    //weather icons
+    <string name="day_lightning">&#xf005;</string>
+    <string name="night_lightning">&#xf025;</string>
+    <string name="day_storm_showers">&#xf00e;</string>
+    <string name="night_storm_showers">&#xf02c;</string>
+    <string name="day_thunderstorm">&#xf010;</string>
+    <string name="night_thunderstorm">&#xf02d;</string>
+    <string name="heavy_thunderstorm">&#xf01e;</string>
+    <string name="heavy_thunderstorm_showers">&#xf01d;</string>
+
+    <string name="day_drizzle">&#xf00b;</string>
+    <string name="night_drizzle">&#xf02b;</string>
+    <string name="heavy_drizzle">&#xf01c;</string>
+
+    <string name="day_rainy">&#xf008;</string>
+    <string name="night_rainy">&#xf028;</string>
+    <string name="heavy_rainy">&#xf019;</string>
+
+    <string name="day_snowy">&#xf00a;</string>
+    <string name="night_snowy">&#xf02a;</string>
+    <string name="day_sleet">&#xf0b2;</string>
+    <string name="nigt_sleet">&#xf0b4;</string>
+    <string name="haevy_snowy">&#xf01b;</string>
+
+    <string name="day_clear">&#xf00d;</string>
+    <string name="night_clear">&#xf02e;</string>
+    <string name="day_partly_cloudy">&#xf00c;</string>
+    <string name="night_partly_cloudy">&#xf081;</string>
+    <string name="day_cloudy">&#xf002;</string>
+    <string name="night_cloudy">&#xf086;</string>
+    <string name="cloudy">&#xf013;</string>
+
+    <string name="tornado">&#xf056;</string>
+    <string name="storm">&#xf0ce;</string>
+    <string name="hurricane">&#xf0cf;</string>
+
+    <string name="foggy">&#xf014;</string>
+
+</resources>

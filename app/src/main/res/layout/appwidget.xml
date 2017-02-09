@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="274dp"
+    android:layout_height="92dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/my_widget_background"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/widgetCity"
+        android:layout_width="86dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_gravity="center"
+        android:layout_weight="0.45"
+        android:gravity="fill_horizontal|center"
+        android:shadowColor="#4a6ae1"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20"
+        android:text="city"
+        android:textAlignment="center"
+        android:textColor="#030303"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/widgetIcon"
+        android:layout_width="76dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+
+        android:layout_toEndOf="@+id/widgetCity"
+        android:layout_toLeftOf="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/widgetCity"
+        android:layout_weight="0.46"
+        android:gravity="center_vertical|center"
+        android:text="icon" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left"
+        android:layout_marginRight="0dp"
+        android:baselineAligned="false"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widgetTemp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#4a6ae1"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="20"
+            android:text="temp"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#030303"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/widgetPressure"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#4a6ae1"
+            android:shadowDx="0"
+
+            android:shadowDy="0"
+            android:shadowRadius="20"
+            android:text="pressure"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#030303"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

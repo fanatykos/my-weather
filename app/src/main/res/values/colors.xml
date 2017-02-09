@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="button">#0066FF</color>
+    <color name="background">#3399FF</color>
+    <color name="font">#ed0d0000</color>
+
+
+    <color name="sunny">#FFCC00</color>
+    <color name="cloudyDay">#0011ff</color>
+    <color name="night">#000000</color>
+    <color name="warnings">#ff0606</color>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PePe Weather</string>
+    <string name="widget_name">PePe Weather Widget</string>
+    <string name="action_settings">about Author...</string>
+
+    <string name="city">London</string>
+    <string name="pressure">Pressure</string>
+    <string name="button">set city</string>
+    <string name="is_reading">...</string>
+    <string name="temp_field">Temperature</string>
+    <string name="last_update">Last update:</string>
+
+</resources>
